@@ -8,8 +8,8 @@ int main(int argc, char * argv[])
     char oriFilePath[640], outputFilePath[645];
     if(argc < 3)
     {
-		printf("Usage: szx [srcFilePath] [block size] [err bound]\n");
-		printf("Example: szx testfloat_8_8_128.dat 64 1E-3\n");
+		printf("Usage: szx_compress [srcFilePath] [block size] [err bound]\n");
+		printf("Example: szx_compress testfloat_8_8_128.dat 64 1E-3\n");
 		exit(0);
     }
 
